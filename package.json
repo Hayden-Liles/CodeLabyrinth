@@ -1,0 +1,28 @@
+{
+  "name": "code-labyrinth",
+  "version": "1.0.0.0",
+  "description": "For the Code labyrinth Class",
+  "main": "index.js",
+  "author": "Hayden Liles",
+  "files": [
+    "*.js",
+    "**/*.js"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "esm": "^3.2.25",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "mime": "^2.5.2",
+    "slugify": "^1.6.5",
+    "ws": "^8.12.0",
+    "yargs": "^17.1.1"
+  },
+  "bin": {
+    "CL-create": "./create.js",
+    "CL-serve": "./serve-static.js",
+    "CL-live": "./live-server.js",
+    "CL": "./CL.js"
+  }
+}
